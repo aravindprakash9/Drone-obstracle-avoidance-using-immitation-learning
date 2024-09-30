@@ -1,0 +1,8 @@
+prefix=/home/sankar/Arav/Perception/github_upload/hectorquad/devel
+
+Name: geodesy
+Description: Description of geodesy
+Version: 0.5.6
+Cflags: -I/home/sankar/Arav/Perception/github_upload/hectorquad/src/geographic_info/geodesy/include
+Libs: -L${prefix}/lib -lgeoconv
+Requires: geographic_msgs geometry_msgs sensor_msgs tf unique_id uuid_msgs
