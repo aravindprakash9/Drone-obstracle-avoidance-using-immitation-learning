@@ -14,7 +14,9 @@ Clone the repository:
 git clone https://github.com/aravindprakash9/Drone-obstracle-avoidance-using-immitation-learning.git
 cd Drone-obstracle-avoidance-using-immitation-learning
 ```
-Build the packages:
+Create Conda environment and Build the packages:
 ```bash
-cmake ..
+conda env create -f environment.yml
+conda activate obs_avoid
+catkin make
 ```
