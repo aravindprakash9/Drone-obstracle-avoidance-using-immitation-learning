@@ -20,6 +20,9 @@ This repository contains the implementation of a drone obstacle avoidance system
 ## Overview
 The goal of this project is to implement a drone navigation system that uses imitation learning to learn obstacle avoidance behavior from expert demonstrations. Imitation learning enables the drone to mimic decisions made by a human or a pre-trained model, allowing efficient navigation through complex environments.
 
+[Watch the demonstration video](demo/drone_demo.mp4)
+
+
 ## Features
 - Training with imitation learning to avoid obstacles.
 - Modular implementation for extensibility and integration.
