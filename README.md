@@ -1,5 +1,3 @@
-# Drone-obstracle-avoidance-using-immitation-learning
-
 # Drone Obstacle Avoidance Using Imitation Learning
 
 This repository contains the implementation of a drone obstacle avoidance system leveraging imitation learning. The project demonstrates the application of machine learning to train drones to navigate through environments while avoiding obstacles, inspired by human behavior.
