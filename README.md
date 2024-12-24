@@ -13,4 +13,8 @@ Clone the repository:
 ```bash
 git clone https://github.com/aravindprakash9/Drone-obstracle-avoidance-using-immitation-learning.git
 cd Drone-obstracle-avoidance-using-immitation-learning
-
+```
+Build the packages:
+```bash
+cmake ..
+```
