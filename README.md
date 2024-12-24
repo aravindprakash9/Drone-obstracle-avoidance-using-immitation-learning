@@ -18,16 +18,10 @@ This repository contains the implementation of a drone obstacle avoidance system
 - [License](#license)
 
 ## Overview
-The goal of this project is to implement a drone navigation system that uses imitation learning to learn obstacle avoidance behavior from expert demonstrations. Imitation learning enables the drone to mimic decisions made by a human or a pre-trained model, allowing efficient navigation through complex environments.
+The goal of this project is to implement a drone navigation system that uses imitation learning to learn obstacle avoidance behavior from expert demonstrations through image inputs. Imitation learning enables the drone to mimic decisions made by a human or a pre-trained model, allowing efficient navigation through complex environments. This project is implemented in ROS 1 noetic along with gazebo. The drone model is taken from hector_quardrotor and it is used for this simulation purposes. Training is done using a alexnet based model with tensorflow implementation. 
 
 ![visualization](demo/imitation_learning.gif)
 
-
-## Features
-- Training with imitation learning to avoid obstacles.
-- Modular implementation for extensibility and integration.
-- Visualization of drone navigation paths.
-- Configurable training parameters for experimentation.
 
 ## Installation
 Clone the repository:
