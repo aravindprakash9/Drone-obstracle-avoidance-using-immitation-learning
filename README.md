@@ -18,5 +18,5 @@ Create Conda environment and Build the packages:
 ```bash
 conda env create -f environment.yml
 conda activate obs_avoid
-catkin make
+catkin_make
 ```
